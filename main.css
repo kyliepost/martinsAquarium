@@ -4,11 +4,16 @@
 
 
 body {
-    display: flex;
+    
 }
 
 .mainHeader {
     font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
 }
 
 .img {
@@ -16,11 +21,11 @@ body {
 }
 
 .flex-left {
-
+flex: 3;
 }
 
 .flex-right {
-    ;
+    flex: 1;
     border: dotted;
     
 }

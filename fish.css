@@ -2,5 +2,10 @@
     border: dotted;
     display: flex;
     /* flex-basis: 30%; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+}
+
+.fishes {
+    margin: 0.5rem 1rem;
+    flex-basis: 25%;
 }
