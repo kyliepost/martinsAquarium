@@ -1,0 +1,6 @@
+.fish {
+    border: dotted;
+    display: flex;
+    /* flex-basis: 30%; */
+    /* flex-wrap: wrap; */
+}
