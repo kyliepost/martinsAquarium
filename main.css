@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    display: flex;
 }
 
 header {
@@ -12,9 +13,6 @@ header {
     border: dotted;
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: center;
 }
 .quotes {
     border: dotted;
@@ -27,4 +25,14 @@ header {
 .img {
     height: auto;
     width: auto;
+}
+
+.flex-left {
+
+}
+
+.flex-right {
+    
+    border: dotted;
+    flex-direction: column;
 }
